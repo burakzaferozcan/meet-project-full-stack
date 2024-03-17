@@ -1,0 +1,124 @@
+body {
+  background-color: #242736;
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+  background-color: #1c1f2e;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  height: 15vh;
+  border-radius: 0 0 15px 15px;
+}
+.header h1 {
+  color: white;
+}
+.section {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+
+}
+.section h3 {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.section div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  row-gap: 10px;
+  height: 100%;
+}
+.section .section-child {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100%;
+  display: flex;
+
+}
+.section .section-child .left {
+  width: 100%;
+  height: 72vh;
+  border-radius: 15px;
+  background-color: #1c1f2e;
+}
+.section .section-child .right {
+
+  width: 100%;
+  height: 72vh;
+  border-radius: 15px;
+}
+.section-link {
+  text-decoration: none;
+  color: #242736;
+  background-color: white;
+  width: 150px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.join-room-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+
+  background-color: #242736;
+}
+.join-room-form h1 {
+  color: white;
+}
+.join-room-form .input-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.join-room-form .input-container input {
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  padding: 5px;
+}
+.join-room-form .input-container button {
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  color: #1c1f2e;
+  background-color: white;
+}
+.join-container {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #1c1f2e;
+
+}
+@media only screen and (max-width : 850px) {
+  .section .section-child {
+
+    flex-wrap: wrap;
+  
+  }
+  .section h3 {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width : 230px) {
+  .header h1 {
+    font-size: 20px;
+  }
+  .section h3 {
+    font-size: 10px;
+  }
+}
